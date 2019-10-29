@@ -39,7 +39,7 @@ int gcd_extended(int a, int b, int *x, int *y) {
 
 // Main Method
 int main() {
-	int a = 20, b = 30, x, y;
+	int a = 20, b = 30, x=0, y=0;
 	printf("Division: GCD(%d, %d) = %d\n", a, b, gcd_div(a, b));
 
 	printf("Recursive: GCD(%d, %d) = %d\n", a, b, gcd_rec(a, b));
